@@ -43,15 +43,35 @@ get_header();
                 <div class="why-work">
                     <div class="reason one">
                         <h3><?php echo get_group_field( 'reason_1', 'reason_1_title' ); ?></h3>
-                        <p><?php echo get_group_field( 'reason_1', 'reason_1_text' ); ?></p>
+                        <!-- <p><?php //echo get_group_field( 'reason_1', 'reason_1_text' ); ?></p> -->
                     </div>
                     <div class="reason two">
                         <h3><?php echo get_group_field( 'reason_2', 'reason_2_title' ); ?></h3>
-                        <p><?php echo get_group_field( 'reason_2', 'reason_2_text' ); ?></p>
+                        <!-- <p><?php //echo get_group_field( 'reason_2', 'reason_2_text' ); ?></p> -->
                     </div>
                     <div class="reason three">
                         <h3><?php echo get_group_field( 'reason_3', 'reason_3_title' ); ?></h3>
-                        <p><?php echo get_group_field( 'reason_3', 'reason_3_text' ); ?></p>
+                        <!-- <p><?php //echo get_group_field( 'reason_3', 'reason_3_text' ); ?></p> -->
+                    </div>
+                    <div class="reason four">
+                        <h3><?php echo get_group_field( 'reason_4', 'reason_4_title' ); ?></h3>
+                        <!-- <p><?php //echo get_group_field( 'reason_3', 'reason_3_text' ); ?></p> -->
+                    </div>
+                    <div class="reason five">
+                        <h3><?php echo get_group_field( 'reason_5', 'reason_5_title' ); ?></h3>
+                        <!-- <p><?php //echo get_group_field( 'reason_3', 'reason_3_text' ); ?></p> -->
+                    </div>
+                    <div class="reason six">
+                        <h3><?php echo get_group_field( 'reason_6', 'reason_6_title' ); ?></h3>
+                        <!-- <p><?php //echo get_group_field( 'reason_3', 'reason_3_text' ); ?></p> -->
+                    </div>
+                    <div class="reason seven">
+                        <h3><?php echo get_group_field( 'reason_7', 'reason_7_title' ); ?></h3>
+                        <!-- <p><?php //echo get_group_field( 'reason_3', 'reason_3_text' ); ?></p> -->
+                    </div>
+                    <div class="reason eight">
+                        <h3><?php echo get_group_field( 'reason_8', 'reason_8_title' ); ?></h3>
+                        <!-- <p><?php //echo get_group_field( 'reason_3', 'reason_3_text' ); ?></p> -->
                     </div>
                 </div>
             </div>

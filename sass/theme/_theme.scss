@@ -518,14 +518,17 @@ section.brands {
 
 section.work-with-us {
 	.why-work {
-		display: flex;
+		display: grid;
 		justify-content: space-between;
+		grid-template-columns: repeat(3, 33.3%);
+		grid-template-rows: repeat(2, 50%);
 		@media (max-width: $sm) {
-			flex-direction: column;
+			grid-template-columns: repeat(2, 50%);
+			grid-template-rows: repeat(4, 25%);
 		}
 		.reason {
 			h3 {
-				font-size: 1.5rem;
+				font-size: 1.3rem;
 				font-weight: 600;
 				color: $primary;
 				display: flex;
@@ -534,18 +537,21 @@ section.work-with-us {
 					font-size: 1.3rem;
 				}
 				@media (max-width: $md) {
-					font-size: 1rem;
+					font-size: 1.1rem;
 				}
 				@media (max-width: $sm) {
-					font-size: 1.25rem;
+					font-size: 0.9rem;
 				}
 				&::before {
-					font-size: 3rem;
+					font-size: 2.5rem;
 					font-weight: 600;
 					color: $secondary-alt;
 					margin-right: 1rem;
-					@media (max-width: $lg) {
-						font-size: 2.5rem;
+					@media (max-width: $md) {
+						font-size: 2rem;
+					}
+					@media (max-width: $sm) {
+						font-size: 1.5rem;
 					}
 				}
 			}
@@ -567,6 +573,41 @@ section.work-with-us {
 				h3 {
 					&::before {
 						content: "3.";
+					}
+				}
+			}
+			&.four {
+				h3 {
+					&::before {
+						content: "4.";
+					}
+				}
+			}
+			&.five {
+				h3 {
+					&::before {
+						content: "5.";
+					}
+				}
+			}
+			&.six {
+				h3 {
+					&::before {
+						content: "6.";
+					}
+				}
+			}
+			&.seven {
+				h3 {
+					&::before {
+						content: "7.";
+					}
+				}
+			}
+			&.eight {
+				h3 {
+					&::before {
+						content: "8.";
 					}
 				}
 			}
