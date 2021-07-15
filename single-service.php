@@ -19,10 +19,8 @@ get_header();
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
             <div class="content-image" style="background-image:url('<?php echo get_the_post_thumbnail_url(); ?>"></div>
-        </div>
-        <div class="col-md-6">
             <div class="content-text">
             <?php
             while ( have_posts() ) {
@@ -34,7 +32,7 @@ get_header();
             </div>
         </div>
     </div>
-    <div class="row extra-services">
+    <!-- <div class="row extra-services">
         <div class="col-lg-4">
             <h2>Installations</h2>
             <p><?php the_field('service_installations_text'); ?></p>
@@ -47,7 +45,7 @@ get_header();
             <h2>Servicing</h2>
             <p><?php the_field('service_servicing_text'); ?></p>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <div class="container">

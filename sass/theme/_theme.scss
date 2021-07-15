@@ -707,6 +707,8 @@ section.testimonials {
 	border: 5px solid $primary;
 	background: url("../img/residential.jpg") no-repeat;
 	background-size: cover;
+	float: left;
+	margin: 0 40px 20px 0;
 	@media (max-width: $lg) {
 		width: 400px;
 		height: 400px;
@@ -736,10 +738,25 @@ section.testimonials {
 			font-size: 20px;
 		}
 	}
+	h5 {
+		color: $primary;
+	}
 	p {
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 300;
 		color: $secondary;
+		@media (max-width: $lg) {
+			font-size: 20px;
+		}
+		@media (max-width: $md) {
+			font-size: 16px;
+		}
+	}
+	ul {
+		color: $secondary;
+		clear: both;
+		font-size: 18px;
+		font-weight: 300;
 		@media (max-width: $lg) {
 			font-size: 20px;
 		}
